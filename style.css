@@ -1,0 +1,120 @@
+body{
+    background-color: whitesmoke;
+}
+#footerbox{
+    background-color: white;
+    height: 140px;
+    position: relative;
+    left: -2vw;
+    position: fixed;
+    bottom: 0%;
+    width: 200%;
+}
+#email{
+    border: 1px solid;
+    width: 26.5vw;
+    height: 4vw;
+    text-align: center;
+    font-size: 1vw;
+    border-radius: 1vw;
+    border-color: lightgray;
+    color: black;
+    position: absolute;
+    top: 10.5vw;
+    left: 57.5vw;
+}
+#password{
+    border: 1px solid;
+    width: 26.5vw;
+    height: 4vw;
+    text-align: center;
+    font-size: 1vw;
+    border-radius: 1vw;
+    border-color: lightgray;
+    color: black;
+    position: absolute;
+    top: 16vw;
+    left: 57.5vw;
+}
+#facebook{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4267B2;
+    font-size: 4vw;
+    position:absolute;
+    top: 10vw;
+    left: 10vw;
+}
+#text1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2vw;
+    position:absolute;
+    left: 10vw;
+    top: 16vw;
+}
+#text2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2vw;
+    position: absolute;
+    left: 10vw;
+    top: 18.5vw;
+}
+#card{
+    box-shadow: 0px 0px 5px 0px gray;
+    border-radius: 5px;
+    background-color: white;
+    width: 29vw;
+    height: 25vw;
+    position: relative;
+    top: 9vw;
+    left: 56vw;
+}
+#loginButton{
+    background-color: #4267B2;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 27vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    border: none;
+    position: absolute;
+    left: 57.5vw;
+    top: 21vw;
+}
+#newaccountButton{
+    background-color: #00AF07;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 13vw;
+    height: 3vw;
+    font-size: 1vw;
+    border: none;
+    font-weight: bold;
+    position: relative;
+    left: 64vw;
+    top: 3.5vw;
+}
+#subtitles{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 60vw;
+    top: 35vw;
+}
+#line{
+    border-radius: 1px;
+    background-color: lightgray;
+    width: 26.5vw;
+    height: 0.05vw;
+    position:absolute;
+    left: 57.5vw;
+    top: 27vw;
+}
+#loginButton:hover{
+    filter: brightness(95%);
+}
+#newaccountButton:hover{
+    filter: brightness(95%);
+}
